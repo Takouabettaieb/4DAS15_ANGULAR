@@ -1,0 +1,8 @@
+<app-header />
+<app-navbar />
+<main class="mx-auto w-full max-w-5xl flex-1 p-4">
+<app-conference-list (conferenceSelected)="selectedConference.set($event)" />
+<app-conference-details [conference]="selectedConference()" />
+  <router-outlet />
+</main>
+<app-footer />

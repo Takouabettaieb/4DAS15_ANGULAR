@@ -1,0 +1,17 @@
+.details-card {
+  margin-top: 24px;
+  padding: 22px;
+  background: #ffffff;
+  border: 2px solid #0f766e;
+  border-radius: 14px;
+}
+
+.details-card h2 {
+  margin: 0 0 12px;
+  color: #1a3a63;
+}
+
+.empty {
+  color: #6b7280;
+  font-style: italic;
+}
